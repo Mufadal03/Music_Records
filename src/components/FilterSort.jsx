@@ -32,7 +32,7 @@ export const Filtering = () => {
     return (
         <Box>
             <Box>
-            <Heading>Filter</Heading>
+            <Heading my="1rem">Filter</Heading>
             <Box>
                 <input onChange={handleGenreChange} defaultChecked={category.includes("K-Pop")} type="checkbox" value={"K-Pop"} id="K-Pop" />
                 <label htmlFor="K-Pop">K-Pop</label>
@@ -59,7 +59,7 @@ export const Filtering = () => {
             </Box>
             </Box>
             <Box >
-                <Heading>Sort</Heading>
+                <Heading my="1rem">Sort</Heading>
                 {/* sort byt types */}
                 <Box>
                     <Select placeholder="Sort By Types" onChange={(e)=>setSort(e.target.value)}>

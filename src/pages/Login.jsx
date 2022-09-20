@@ -24,7 +24,7 @@ export const Login = () => {
         }
     }
     return (
-        <Container border="2px solid red" p="2">
+        <Container mt="4rem" border="1px solid rgba(1,1,1,0.5)"p="2">
             <Heading fontWeight={"sm"}>Login Page</Heading>
          <FormControl>
         <FormLabel>Email address</FormLabel>

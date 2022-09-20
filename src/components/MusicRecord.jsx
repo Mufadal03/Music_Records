@@ -29,7 +29,7 @@ export const MusicRecord = () => {
             <Grid  gridTemplateColumns={"repeat(4,1fr)"} gap="1rem">
                 {musicRecords?.length >= 0 && musicRecords?.map((item) => (
                    <Link to={`music/${item.id}`}> <GridItem key={item.id}>
-                        <Box border="2px solid"> 
+                        <Box border="1px solid rgba(1,1,1,0.5)" borderRadius={"md"}> 
                             <Text>{item.name}</Text>
                             <Image m="auto" src={item.img} alt={item.name} />
                             <Text>{ item.genre}</Text>

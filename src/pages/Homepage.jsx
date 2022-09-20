@@ -5,9 +5,9 @@ import { MusicPage } from "./MusicPage"
 export const Homepage = () => {
     return (
         <Box>
-            <Flex w="50%" m="auto">
+            <Flex justifyContent={"space-around"} gap="2rem" p="1rem" bgColor="#f8f8f8"   >
                 <NavLink to="/login"><Text>Login</Text></NavLink>
-                <Spacer />
+               
                 <NavLink to="/"><Text>MusicPage</Text></NavLink>
             </Flex>
             <MusicPage />
